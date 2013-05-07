@@ -22,8 +22,8 @@ FizzBuzz.prototype.loop2 = function() {
 	var array = new Array;
 	for (i = 0; i < 100; i++) {
 		var value = i + 1;
-		var isThree = value % 3;
-		var isFive = value % 5;
+		var isThree = (value % 3 == 0) ? 1 : 0;
+		var isFive = (value % 5 == 0) ? 1 : 0;
 		if (isThree && isFive) {
 			array[i] = "FizzBuzz";
 		} else if (isThree) {
