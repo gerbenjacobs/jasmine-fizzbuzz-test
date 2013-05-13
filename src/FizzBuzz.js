@@ -2,28 +2,28 @@ function FizzBuzz() {
 }
 
 FizzBuzz.prototype.loop = function() {
-	var array = new Array;
+	var array = [];
 	for (i = 0; i < 100; i++) {
 		var value = i + 1;
-		if (value % 3 == 0 && value % 5 == 0) {
+		if (value % 3 === 0 && value % 5 === 0) {
 			array[i] = "FizzBuzz";
-		} else if (value % 3 == 0) {
+		} else if (value % 3 === 0) {
 			array[i] = "Fizz";
-		} else if (value % 5 == 0) {
+		} else if (value % 5 === 0) {
 			array[i] = "Buzz";
 		} else {
 			array[i] = value;
 		}
 	}
 	return array;
-}
+};
 
 FizzBuzz.prototype.loop2 = function() {
-	var array = new Array;
+	var array = [];
 	for (i = 0; i < 100; i++) {
 		var value = i + 1;
-		var isThree = (value % 3 == 0) ? 1 : 0;
-		var isFive = (value % 5 == 0) ? 1 : 0;
+		var isThree = (value % 3 === 0) ? 1 : 0;
+		var isFive = (value % 5 === 0) ? 1 : 0;
 		if (isThree && isFive) {
 			array[i] = "FizzBuzz";
 		} else if (isThree) {
@@ -35,4 +35,4 @@ FizzBuzz.prototype.loop2 = function() {
 		}
 	}
 	return array;
-}
+};

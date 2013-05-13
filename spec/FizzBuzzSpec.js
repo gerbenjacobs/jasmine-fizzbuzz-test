@@ -21,9 +21,6 @@ describe("FizzBuzz", function() {
   it("should have 'FizzBuzz' on index 14", function() {
     expect(array[14]).toEqual("FizzBuzz");
   });
-  
-  console.log(array);
-  
 });
 describe("FizzBuzz (with refactored code)", function() {
   var fizzbuzz = new FizzBuzz();
@@ -48,7 +45,4 @@ describe("FizzBuzz (with refactored code)", function() {
   it("should have 'FizzBuzz' on index 14", function() {
     expect(array[14]).toEqual("FizzBuzz");
   });
-  
-  console.log(array);
-  
 });

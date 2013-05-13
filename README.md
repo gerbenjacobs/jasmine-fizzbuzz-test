@@ -1,5 +1,5 @@
 # Jasmine BDD tests with FizzBuzz code
-A simple Hello World example of how to work with the [Jasmine BDD framework](http://pivotal.github.io/jasmine/)
+A simple FizzBuzz example of how to work with the [Jasmine BDD framework](http://pivotal.github.io/jasmine/)
 
 ## How to run
 1. Just open `index.html`
