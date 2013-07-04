@@ -4,7 +4,7 @@
   "description": "A simple FizzBuzz script tested with Jasmine",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
