@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/gerbenjacobs/jasmine-fizzbuzz-test.png?branch=master)](https://travis-ci.org/gerbenjacobs/jasmine-fizzbuzz-test)
 # Jasmine BDD tests with FizzBuzz code
 A simple FizzBuzz example of how to work with the [Jasmine BDD framework](http://pivotal.github.io/jasmine/)
 
